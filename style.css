@@ -30,4 +30,18 @@ header{
      border-bottom: 1px solid silver;
  }
 
+.img img{
+    width: 300px;
+    height: 300px;
+}
 
+.section-1-body,
+.section-2-body,
+.section-3-body{
+    display: flex;
+    flex-flow: row;
+}
+.description,
+.img{
+    padding: 5px;
+}
