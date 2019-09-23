@@ -9,7 +9,7 @@ header, footer{
 
 section{
     height: 100vh;
-    border: 5px solid black;
+    border: 1px solid black;
 }
 
 header{
@@ -17,5 +17,17 @@ header{
     top: 0;
     right: 0;
     left: 0;
-
 }
+ .mt-50{
+     margin-top: 17px;
+ }
+
+ .section-1-title h2,
+ .section-2-title h2,
+ .section-3-title h2{
+     text-align: center;
+     padding: 10px 5px;
+     border-bottom: 1px solid silver;
+ }
+
+
