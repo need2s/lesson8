@@ -8,7 +8,7 @@ header, footer{
 }
 
 section{
-    height: 100vh;
+    min-height: 100vh;
     border: 1px solid black;
 }
 
@@ -31,6 +31,7 @@ header{
  }
 
 .img img{
+    display: inline-block;
     width: 300px;
     height: 300px;
 }
@@ -44,4 +45,32 @@ header{
 .description,
 .img{
     padding: 5px;
+}
+
+.blok-1{
+    max-width: 46%;
+    padding: 20px 2%;
+}
+
+.list-description{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px;
+}
+
+.list{
+    padding-left: 20px;
+}
+
+.block-description p{
+    display: block;
+    margin-bottom:15px;
+    padding: 5px;
+}
+
+.blok-title h2{
+    margin-bottom:10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
